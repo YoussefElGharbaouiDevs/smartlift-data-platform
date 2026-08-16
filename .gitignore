@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data & Local Logs
+logs/
+data/raw/*
+!data/raw/.gitkeep
+data/external/*
+!data/external/.gitkeep
+
+# Environment secrets
+.env
+*.env
+
+# MinIO / Docker local data
+.minio.sys/
+minio_data/
+postgres_data/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# dbt target & logs
+dbt/target/
+dbt/dbt_packages/
+dbt/logs/
