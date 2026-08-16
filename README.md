@@ -1,4 +1,4 @@
-# 🛗 SmartLift Data Intelligence Platform
+# SmartLift Data Intelligence Platform
 
 > **Projet Fin d'Année / Stage PFA** | **MARELEV S.A.R.L $\times$ EMSI Casablanca**  
 > *Filière Intelligence Artificielle & Big Data (2025-2026)*  
@@ -7,10 +7,10 @@
 
 ---
 
-## 📌 Présentation du Projet
+## Présentation du Projet
 **SmartLift Data Intelligence Platform** est une plateforme moderne de Data Engineering et d'Intelligence Artificielle conçue pour collecter, nettoyer, historiser, analyser et prédire les données de consommation énergétique et le comportement opérationnel des ascenseurs.
 
-### 🌟 Fonctionnalités Clés
+### Fonctionnalités Clés
 - **Ingestion Hybride** : Traitement Batch (4 datasets réels + Mendeley + Figshare) et Streaming IoT (Kafka + Simulateur Python).
 - **Architecture Medallion (Bronze $\rightarrow$ Silver $\rightarrow$ Gold)** : Stockage Data Lake MinIO et Data Warehouse PostgreSQL.
 - **Data Quality & Traçabilité** : Validation des schémas, gestion des valeurs manquantes, traçabilité `record_nature` (OBSERVED / SIMULATED / DERIVED).
@@ -19,7 +19,7 @@
 
 ---
 
-## 🏗️ Architecture Technique
+## Architecture Technique
 
 ```
                        +---------------------------------------+
@@ -77,7 +77,7 @@ SmartLift/
 
 ---
 
-## 🚀 Démarrage Rapide (Infrastructure Docker)
+## Démarrage Rapide (Infrastructure Docker)
 
 ### 1. Prérequis
 - Docker Desktop (avec Docker Compose V2)
@@ -106,7 +106,7 @@ docker-compose down
 
 ---
 
-## 📊 Status des Schémas de Données (PostgreSQL)
+## Status des Schémas de Données (PostgreSQL)
 
 - **`bronze`** : Tables brutes d'ingestion (`raw_elevator_energy_efficiency`, `raw_elevator_traffic`, `raw_elevator_door_fault`, `raw_predictive_maintenance`).
 - **`silver`** : Tables nettoyées et typées par domaine.
