@@ -1,12 +1,5 @@
 # SmartLift Data Intelligence Platform
 
-> **Projet Fin d'Année / Stage PFA** | **MARELEV S.A.R.L $\times$ EMSI Casablanca**  
-> *Filière Intelligence Artificielle & Big Data (2025-2026)*  
-> **Réalisé par :** Yasser Hadli & Youssef El Gharbaoui  
-> **Encadrant Académique :** M. Hamza Abouabid  
-
----
-
 ## Présentation du Projet
 **SmartLift Data Intelligence Platform** est une plateforme moderne de Data Engineering et d'Intelligence Artificielle conçue pour collecter, nettoyer, historiser, analyser et prédire les données de consommation énergétique et le comportement opérationnel des ascenseurs.
 
